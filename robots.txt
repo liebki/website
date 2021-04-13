@@ -1,0 +1,38 @@
+# ===================================
+# Page: http://http://kmliebl.de
+# ===================================
+
+# ================
+# Dont index:
+# ================
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /images/
+Disallow: /assets/
+
+# ==========================================
+# I dont like those robots:
+# ==========================================
+
+User-agent: WebReaper
+User-agent: WebCopier
+User-agent: Offline Explorer
+User-agent: HTTrack
+User-agent: Microsoft.URL.Control
+User-agent: EmailCollector
+User-agent: penthesilea
+User-agent: yahoo-blogs/v3.9
+User-agent: psbot
+User-agent: yahoo-mmcrawler
+User-agent: baiduspider
+User-agent: yeti
+User-agent: ia_archiver
+User-agent: Slurp
+User-agent: Teoma
+User-agent: Gigabot
+User-agent: Robozilla
+User-agent: Nutch
+Disallow: /
